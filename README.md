@@ -66,3 +66,13 @@ Using this case study I want to convey that it is worthwhile to actually invest 
 
 Consult the output images and a output video present in the output file for more information.
 
+## Output
+
+Notice how the ML model uses the facial landmarks to calculate whether the person is smiling or not. Also notice how the DL model fails when the face is at various angels.
+
+Watch the full video <a href='https://youtu.be/O8N49c_6wt4' target='_blank'>here</a>
+
+<img src='output/output 1.png' width= 500 px>
+<img src='output/output 2.png' width= 500 px>
+<img src='output/output 3.png' width= 500 px>
+<img src='output/output 4.png' width= 500 px>

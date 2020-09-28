@@ -36,8 +36,10 @@ use the command from the terminal- <b>python/python3 detect_smile_dl.py -m smile
 
 Running the above commands opens up a OpenCV highGUI window where the smiles are detected and labels are displayed. Checkout the output images for a preview.
 
-I have also included the training script for training the smiles model.
+I have also included the training script for training the smiles model. The dataset can be downloaded from <a href="https://github.com/meng1994412/Smile_Detection/tree/master/dataset" target='_blank'>this repo</a>.
 
+I have also added a combined model running script that will run both the model on separate windows. The arguments are the same as the last two scripts. Run the command <b>python/python3 combined_model.py -l [path to dlib's landmark model] -m [path to trained smiles model]</b>
+  
 ## Methodology
 To detect the smiles, first detecting the face is necessary. To do this I used the Dlib's frontal face detector in both the models. Also I have improved the speed of detection by deliberately skipping some frames while detecting the face. This is done because during any sort of prediction from models, the face detection system creates the bottleneck which slows down the entire pipeline. Ofcourse this is only done for web cam faces with the assumption that the face will constantly be in front of the camera and skipping a few frames will not matter, but the same cannot be done for videos.
 

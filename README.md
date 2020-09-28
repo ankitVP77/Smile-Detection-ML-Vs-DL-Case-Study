@@ -72,6 +72,8 @@ Notice how the ML model uses the facial landmarks to calculate whether the perso
 
 Watch the full video <a href='https://youtu.be/O8N49c_6wt4' target='_blank'>here</a>
 
+PS: Sorry for the extremely cringy smiles. I was up all night working.
+
 <img src='output/output 1.png' width= 500 px>
 <img src='output/output 2.png' width= 500 px>
 <img src='output/output 3.png' width= 500 px>
